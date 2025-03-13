@@ -1,5 +1,6 @@
 import cors from 'cors'
 import express, { NextFunction, Request, Response } from 'express'
+import morgan from 'morgan'
 import { connectDB } from './config/database'
 import modules from './modules'
 import { HttpResponse } from './utils/http-response'
@@ -10,6 +11,7 @@ const app = express()
 connectDB()
 
 app.use(cors())
+app.use(morgan('dev'))
 app.use(express.json())
 
 app.use('/api', modules)

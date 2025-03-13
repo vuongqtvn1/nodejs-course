@@ -1,13 +1,21 @@
 // Data Transfer Object (DTO)
 
-export interface CreateProductDTO {
-  name: string;
-  price: number;
-  description?: string;
+import { BaseFilters } from '~/utils/repository'
+import { IProduct } from '../models/product.model'
+
+export interface CreateProductDTO extends IProduct {
+  name: string
+  price: number
+  description?: string
 }
 
 export interface UpdateProductDTO {
-  name?: string;
-  price?: number;
-  description?: string;
+  name?: string
+  price?: number
+  description?: string
+}
+
+export interface ProductFilters extends BaseFilters {
+  keyword?: string
+  name?: string
 }

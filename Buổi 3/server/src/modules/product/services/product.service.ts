@@ -1,24 +1,34 @@
-import { ProductRepository } from "../repositories/product.repository";
-import { CreateProductDTO, UpdateProductDTO } from "../dtos/product.dto";
+import { ProductRepository } from '../repositories/product.repository'
+import {
+  CreateProductDTO,
+  ProductFilters,
+  UpdateProductDTO,
+} from '../dtos/product.dto'
+import { BaseRepository } from '~/utils/repository'
+import { IProduct, ProductModel } from '../models/product.model'
 
 export class ProductService {
   static async createProduct(data: CreateProductDTO) {
-    return await ProductRepository.create(data);
+    return await BaseRepository.create<IProduct>(ProductModel, data)
   }
 
-  static async getProducts() {
-    return await ProductRepository.getAll();
+  static async getProducts(filters: ProductFilters) {
+    return await ProductRepository.getAll(filters)
+  }
+
+  static async getProductFilter(filters: ProductFilters) {
+    return await ProductRepository.getPaginate(filters)
   }
 
   static async getProductById(id: string) {
-    return await ProductRepository.getById(id);
+    return await BaseRepository.getById(ProductModel, id)
   }
 
   static async updateProduct(id: string, data: UpdateProductDTO) {
-    return await ProductRepository.update(id, data);
+    return await ProductRepository.update(id, data)
   }
 
   static async deleteProduct(id: string) {
-    return await ProductRepository.delete(id);
+    return await ProductRepository.delete(id)
   }
 }
