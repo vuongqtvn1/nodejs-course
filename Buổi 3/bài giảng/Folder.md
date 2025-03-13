@@ -28,27 +28,29 @@ Trong một dự án Express.js sử dụng TypeScript, tổ chức folder hợp
 ## 2. Ví dụ cụ thể - Module User
 
 ### 2.1. Khai báo routes (routes/user.routes.ts)
+
 ```ts
-import { Router } from 'express';
-import { UserController } from '../controllers/user.controller';
-import { validateUser } from '../validators/user.validator';
-import { authMiddleware } from '../../middlewares/auth.middleware';
+import { Router } from "express";
+import { UserController } from "../controllers/user.controller";
+import { validateUser } from "../validators/user.validator";
+import { authMiddleware } from "../../middlewares/auth.middleware";
 
 const router = Router();
 const userController = new UserController();
 
-router.get('/', authMiddleware, userController.getUsers);
-router.post('/', validateUser, userController.createUser);
-router.put('/:id', validateUser, authMiddleware, userController.updateUser);
-router.delete('/:id', authMiddleware, userController.deleteUser);
+router.get("/", authMiddleware, userController.getUsers);
+router.post("/", validateUser, userController.createUser);
+router.put("/:id", validateUser, authMiddleware, userController.updateUser);
+router.delete("/:id", authMiddleware, userController.deleteUser);
 
 export default router;
 ```
 
 ### 2.2. Controller xử lý request (controllers/user.controller.ts)
+
 ```ts
-import { Request, Response } from 'express';
-import { UserService } from '../services/user.service';
+import { Request, Response } from "express";
+import { UserService } from "../services/user.service";
 
 export class UserController {
   private userService = new UserService();
@@ -64,7 +66,10 @@ export class UserController {
   }
 
   async updateUser(req: Request, res: Response) {
-    const updatedUser = await this.userService.updateUser(req.params.id, req.body);
+    const updatedUser = await this.userService.updateUser(
+      req.params.id,
+      req.body
+    );
     res.json(updatedUser);
   }
 
@@ -76,8 +81,9 @@ export class UserController {
 ```
 
 ### 2.3. Service xử lý logic nghiệp vụ (services/user.service.ts)
+
 ```ts
-import { UserRepository } from '../repositories/user.repository';
+import { UserRepository } from "../repositories/user.repository";
 
 export class UserService {
   private userRepository = new UserRepository();
@@ -101,9 +107,10 @@ export class UserService {
 ```
 
 ### 2.4. Repository xử lý database (repositories/user.repository.ts)
+
 ```ts
-import mongoose from 'mongoose';
-import { UserModel } from '../models/user.model';
+import mongoose from "mongoose";
+import { UserModel } from "../models/user.model";
 
 export class UserRepository {
   async findAll() {
@@ -125,36 +132,49 @@ export class UserRepository {
 ```
 
 ### 2.5. Middleware kiểm tra đăng nhập (middlewares/auth.middleware.ts)
+
 ```ts
-import { Request, Response, NextFunction } from 'express';
-import jwt from 'jsonwebtoken';
+import { Request, Response, NextFunction } from "express";
+import jwt from "jsonwebtoken";
 
-export const authMiddleware = (req: Request, res: Response, next: NextFunction) => {
-  const token = req.headers.authorization?.split(' ')[1];
+export const authMiddleware = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  const token = req.headers.authorization?.split(" ")[1];
 
-  if (!token) return res.status(401).json({ message: 'Unauthorized' });
+  if (!token) return res.status(401).json({ message: "Unauthorized" });
 
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET!);
     req.user = decoded;
     next();
   } catch (error) {
-    return res.status(401).json({ message: 'Invalid token' });
+    return res.status(401).json({ message: "Invalid token" });
   }
 };
 ```
 
 ### 2.6. Validator kiểm tra dữ liệu request (validators/user.validator.ts)
+
 ```ts
-import * as yup from 'yup';
-import { Request, Response, NextFunction } from 'express';
+import * as yup from "yup";
+import { Request, Response, NextFunction } from "express";
 
 const userSchema = yup.object({
-  email: yup.string().email('Invalid email').required('Email is required'),
-  password: yup.string().min(6, 'Password must be at least 6 characters').required('Password is required'),
+  email: yup.string().email("Invalid email").required("Email is required"),
+  password: yup
+    .string()
+    .min(6, "Password must be at least 6 characters")
+    .required("Password is required"),
 });
 
-export const validateUser = async (req: Request, res: Response, next: NextFunction) => {
+export const validateUser = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
   try {
     await userSchema.validate(req.body, { abortEarly: false });
     next();
@@ -167,6 +187,7 @@ export const validateUser = async (req: Request, res: Response, next: NextFuncti
 ---
 
 ## 3. Tổng kết
+
 - **Cấu trúc theo modules** giúp code dễ mở rộng.
 - **Controller**: Nhận request, gọi **Service** để xử lý.
 - **Service**: Xử lý logic, gọi **Repository** để truy cập database.
@@ -174,4 +195,3 @@ export const validateUser = async (req: Request, res: Response, next: NextFuncti
 - **Middleware**: Kiểm tra đăng nhập, phân quyền.
 - **Validator**: Xác thực dữ liệu đầu vào bằng Yup.
 - **Routes**: Định nghĩa API.
-
