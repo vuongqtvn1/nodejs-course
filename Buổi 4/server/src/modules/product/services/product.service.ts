@@ -5,11 +5,10 @@ import {
   UpdateProductDTO,
 } from '../dtos/product.dto'
 import { BaseRepository } from '~/utils/repository'
-import { IProduct, ProductModel } from '../models/product.model'
 
 export class ProductService {
   static async createProduct(data: CreateProductDTO) {
-    return await BaseRepository.create<IProduct>(ProductModel, data)
+    // return await BaseRepository.create<IProduct>(ProductModel, data)
   }
 
   static async getProducts(filters: ProductFilters) {
@@ -21,7 +20,8 @@ export class ProductService {
   }
 
   static async getProductById(id: string) {
-    return await BaseRepository.getById(ProductModel, id)
+    return null
+    // return await BaseRepository.getById(ProductModel, id)
   }
 
   static async updateProduct(id: string, data: UpdateProductDTO) {

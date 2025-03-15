@@ -34,7 +34,7 @@ export class ProductController {
       page = 1,
       limit = 2,
       // name,
-      // keyword,
+      keyword,
       // role
       // category
       sort,
@@ -46,6 +46,7 @@ export class ProductController {
 
     const filters: ProductFilters = {
       ...filterObject,
+      keyword,
       page: Number(page),
       limit: Number(limit),
       sort: sort as string,

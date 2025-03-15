@@ -1,4 +1,4 @@
-import { ProductModel } from '../models/product.model'
+import { prisma } from '~/config/prisma'
 import {
   CreateProductDTO,
   ProductFilters,
@@ -11,7 +11,7 @@ export class ProductRepository {
     const condition: Record<string, any> = {}
 
     if (filters.keyword) {
-      condition['name'] = { $regex: new RegExp(filters.keyword, 'i') }
+      condition['name'] = { contains: filters.keyword }
     }
 
     if (filters.name) {
@@ -33,12 +33,17 @@ export class ProductRepository {
     // return await ProductModel.find(condition).sort(sort)
 
     // cach 2
-    return await BaseRepository.getAll(ProductModel, condition, filters)
+
+    return await prisma.product.findMany({
+      where: condition,
+    })
   }
 
   static async getPaginate(filters: ProductFilters) {
     const { condition } = ProductRepository.getQuery(filters)
-
+    return await prisma.product.findMany({
+      where: condition,
+    })
     // cach 1
     // const { sort, paginate } = BaseRepository.getQuery(filters)
 
@@ -51,13 +56,13 @@ export class ProductRepository {
 
     // return { data, totalData }
 
-    const result = await BaseRepository.getPagination(
-      ProductModel,
-      condition,
-      filters
-    )
+    // const result = await BaseRepository.getPagination(
+    //   ProductModel,
+    //   condition,
+    //   filters
+    // )
 
-    return result
+    // return result
   }
 
   // static async getById(id: string) {
@@ -65,10 +70,10 @@ export class ProductRepository {
   // }
 
   static async update(id: string, data: UpdateProductDTO) {
-    return await ProductModel.findByIdAndUpdate(id, data, { new: true })
+    // return await ProductModel.findByIdAndUpdate(id, data, { new: true })
   }
 
   static async delete(id: string) {
-    return await ProductModel.findByIdAndDelete(id)
+    // return await ProductModel.findByIdAndDelete(id)
   }
 }

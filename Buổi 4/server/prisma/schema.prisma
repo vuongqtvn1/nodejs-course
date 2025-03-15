@@ -35,4 +35,14 @@ model Post {
   author    User     @relation(fields: [authorId], references: [id])
   authorId  Int
   createdAt DateTime @default(now())
+
+  @@fulltext([title])
+  @@fulltext([content])
+}
+
+model Product {
+  id          Int    @id @default(autoincrement())
+  name        String
+  description String @default("")
+  price       Float
 }
