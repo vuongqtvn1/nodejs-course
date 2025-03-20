@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "30000:27017"
+    volumes:
+      - ./database:/data/db  # Lưu trữ dữ liệu vào thư mục db cùng cấp với docker-compose.yml
+    networks:
+      - mongo-network
+
+networks:
+  mongo-network:
+    driver: bridge

@@ -1,0 +1,23 @@
+[2025-03-20T19:51:09.929+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-20T19:51:09.945+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-20T19:58:41.986+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-20T19:58:41.997+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-20T20:00:14.619+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-20T20:00:14.628+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-20T20:00:21.674+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-20T20:00:21.686+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-20T20:00:40.408+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-20T20:00:40.419+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-20T20:00:47.841+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-20T20:00:47.851+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-20T20:06:35.169+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-20T20:06:35.179+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-20T20:18:29.329+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-20T20:18:29.341+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-20T20:25:07.846+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-20T20:25:07.860+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-20T20:25:22.021+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-20T20:25:22.034+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-20T20:27:48.749+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /api/auth/getMe - ::1"}
+[2025-03-20T20:27:58.396+07:00][info][[NodeJS Course Service]] {"message":"user middleware passport jwt","data":{"_id":"67dc1198a372938a3afcacf8","name":"Dương Vương","email":"quocvuongta1032@gmail.com","providerId":"112460480445344425383","provider":"google","createdAt":"2025-03-20T13:01:12.230Z","updatedAt":"2025-03-20T13:01:12.230Z","__v":0}}
+[2025-03-20T20:29:13.782+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - POST /api/auth-passport/login - ::1"}
