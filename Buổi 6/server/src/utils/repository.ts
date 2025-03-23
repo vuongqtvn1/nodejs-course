@@ -1,37 +1,37 @@
-import mongoose, { Model, QueryWithHelpers } from "mongoose";
+import mongoose, { Model, QueryWithHelpers } from 'mongoose'
 
 export interface BaseFilters {
-  page?: number;
-  limit?: number;
-  sort?: string;
-  order?: "ASC" | "DESC";
+  page?: number
+  limit?: number
+  sort?: string
+  order?: 'ASC' | 'DESC'
 }
 
 export class BaseRepository {
   static getQuery(filters: BaseFilters) {
-    const sort: Record<string, any> = {};
+    const sort: Record<string, any> = {}
     const paginate = {
       skip: 0,
       page: 0,
       limit: 0,
       hasPaginate: false,
-    };
+    }
 
     if (filters.sort && filters.order) {
-      sort[filters.sort] = filters.order === "ASC" ? 1 : -1;
+      sort[filters.sort] = filters.order === 'ASC' ? 1 : -1
     }
 
     if (filters.page && filters.limit) {
-      paginate.skip = (filters.page - 1) * filters.limit;
-      paginate.page = filters.page;
-      paginate.limit = filters.limit;
+      paginate.skip = (filters.page - 1) * filters.limit
+      paginate.page = filters.page
+      paginate.limit = filters.limit
     }
 
-    return { sort, paginate };
+    return { sort, paginate }
   }
 
   static async create<T>(model: Model<T>, data: T) {
-    return await model.create(data);
+    return await model.create(data)
   }
 
   static async getAll<T, Type extends BaseFilters>(
@@ -39,9 +39,9 @@ export class BaseRepository {
     condition: Record<string, any>,
     filters: Type
   ) {
-    const { sort } = BaseRepository.getQuery(filters);
+    const { sort } = BaseRepository.getQuery(filters)
 
-    return await model.find(condition).sort(sort);
+    return await model.find(condition).sort(sort).lean()
   }
 
   static async getPagination<T, Type extends BaseFilters>(
@@ -49,21 +49,22 @@ export class BaseRepository {
     condition: Record<string, any>,
     filters: Type
   ) {
-    const { sort, paginate } = BaseRepository.getQuery(filters);
+    const { sort, paginate } = BaseRepository.getQuery(filters)
 
     const data = await model
       .find(condition)
       .sort(sort)
       .skip(paginate.skip)
-      .limit(paginate.limit);
+      .limit(paginate.limit)
+      .lean()
 
-    const totalData = await model.find(condition).countDocuments();
+    const totalData = await model.find(condition).countDocuments()
 
-    return { data, totalData };
+    return { data, totalData }
   }
 
   static async getById<T = any>(model: Model<T>, id: string) {
-    return await model.findById(id);
+    return await model.findById(id).lean()
   }
 
   static async update<T extends Document = any>(
@@ -71,13 +72,13 @@ export class BaseRepository {
     id: string | mongoose.ObjectId,
     data: T
   ) {
-    return await model.findByIdAndUpdate(id, { ...data }, { new: true });
+    return await model.findByIdAndUpdate(id, { ...data }, { new: true })
   }
 
   static async delete<T = any>(
     model: Model<T>,
     id: string | mongoose.ObjectId
   ) {
-    return await model.findByIdAndDelete(id);
+    return await model.findByIdAndDelete(id)
   }
 }

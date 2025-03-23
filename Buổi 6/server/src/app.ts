@@ -1,15 +1,15 @@
+import compression from 'compression'
 import cors from 'cors'
 import express, { NextFunction, Request, Response } from 'express'
 import morgan from 'morgan'
-import multer from 'multer'
 import passport from 'passport'
 import path from 'path'
 
 import { connectDB } from './config/database'
 import './middlewares/passport'
 import modules from './modules'
-import { logger } from './utils/logger'
 import { HttpResponse } from './utils/http-response'
+import { logger } from './utils/logger'
 
 const app = express()
 
@@ -18,6 +18,7 @@ connectDB()
 app.use(cors())
 app.use(morgan('dev'))
 app.use(express.json())
+app.use(compression())
 app.use(passport.initialize())
 // Phục vụ các file trong thư mục "public" tại đường dẫn "/public"
 app.use('/public', express.static(path.join(__dirname, 'public')))
@@ -166,12 +167,37 @@ app.use((err: any, req: Request, res: Response, next: NextFunction) => {
 //   })
 // })
 
-// app.post('/profile', upload.single('avatar'), function (req, res, next) {
-//   console.log(req.file)
-//   // req.file is the `avatar` file
-//   // req.body will hold the text fields, if there were any
+// app.post(
+//   '/profile-local',
+//   uploadLocal.single('avatar'),
+//   function (req, res, next) {
+//     console.log(req.file)
+//     // req.file is the `avatar` file
+//     // req.body will hold the text fields, if there were any
 
-//   res.json(req.file)
+//     res.json(req.file)
+//   }
+// )
+
+// app.post(
+//   '/profile-cloud',
+//   uploadCloud.single('avatar'),
+//   function (req, res, next) {
+//     console.log(req.file)
+//     // req.file is the `avatar` file
+//     // req.body will hold the text fields, if there were any
+
+//     res.json(req.file)
+//   }
+// )
+
+// app.delete('/delete-cloud', async function (req, res, next) {
+//   const path = req.body.path
+
+//   await CloudinaryHandler.deleteFile(path)
+//   logger.info('Delete file successfully', path)
+
+//   res.json()
 // })
 
 // app.post('/photos', upload.array('photos', 2), function (req, res, next) {
@@ -214,4 +240,5 @@ app.use((err: any, req: Request, res: Response, next: NextFunction) => {
 
 //   res.status(500).json(HttpResponse.error(err.message))
 // })
+
 export default app
