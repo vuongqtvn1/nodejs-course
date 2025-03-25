@@ -251,35 +251,49 @@ export default function Chat() {
     };
 
     return (
-        <div>
-            <h2>Messenger Clone</h2>
-            <input
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                placeholder="Enter your name"
-            />
-            <select onChange={(e) => setChatType(e.target.value)}>
-                <option value="group">Group Chat</option>
-                <option value="private">Private Chat</option>
-            </select>
-            <input
-                value={room}
-                onChange={(e) => setRoom(e.target.value)}
-                placeholder={chatType === "group" ? "Enter group name" : "Enter recipient name"}
-            />
-            <button onClick={joinRoom}>Join Chat</button>
-            <button onClick={leaveRoom}>Leave Chat</button>
-            <div>
-                {messages.map((msg, idx) => (
-                    <p key={idx}><strong>{msg.name}:</strong> {msg.message}</p>
-                ))}
+        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
+            <div className="w-full max-w-md bg-white shadow-lg rounded-lg p-6">
+                <h2 className="text-xl font-semibold text-center mb-4">Messenger Clone</h2>
+                <input
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    placeholder="Enter your name"
+                    className="w-full p-2 border rounded-lg mb-3"
+                />
+                <select
+                    onChange={(e) => setChatType(e.target.value)}
+                    className="w-full p-2 border rounded-lg mb-3"
+                >
+                    <option value="group">Group Chat</option>
+                    <option value="private">Private Chat</option>
+                </select>
+                <input
+                    value={room}
+                    onChange={(e) => setRoom(e.target.value)}
+                    placeholder={chatType === "group" ? "Enter group name" : "Enter recipient name"}
+                    className="w-full p-2 border rounded-lg mb-3"
+                />
+                <div className="flex justify-between">
+                    <button onClick={joinRoom} className="px-4 py-2 bg-blue-500 text-white rounded-lg">Join</button>
+                    <button onClick={leaveRoom} className="px-4 py-2 bg-red-500 text-white rounded-lg">Leave</button>
+                </div>
+                <div className="mt-4 h-64 overflow-y-auto bg-gray-200 p-3 rounded-lg">
+                    {messages.map((msg, idx) => (
+                        <p key={idx} className="p-2 bg-white rounded-lg shadow mb-2">
+                            <strong>{msg.name}:</strong> {msg.message}
+                        </p>
+                    ))}
+                </div>
+                <div className="mt-3 flex items-center gap-2">
+                    <input
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        placeholder="Type a message"
+                        className="flex-1 p-2 border rounded-lg"
+                    />
+                    <button onClick={sendMessage} className="px-4 py-2 bg-green-500 text-white rounded-lg">Send</button>
+                </div>
             </div>
-            <input
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                placeholder="Type a message"
-            />
-            <button onClick={sendMessage}>Send</button>
         </div>
     );
 }
