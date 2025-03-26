@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "logs/.7d73ef83d2ae6e7a2523807269a2cfb78d367c4d-audit.json",
+    "files": [
+        {
+            "date": 1742789089169,
+            "name": "logs/[NodeJS Course Service]-2025-03-24.log",
+            "hash": "67adecccd14a6766d3c14bd2e9ba5ed9a132b582d6bf774d37d3d970e0c07ed3"
+        },
+        {
+            "date": 1742909855353,
+            "name": "logs\\[NodeJS Course Service]-2025-03-25.log",
+            "hash": "a23358e51ba3852c97637c1d95e657bd572aaea1605c18e2f6865719b962c624"
+        }
+    ],
+    "hashType": "sha256"
+}

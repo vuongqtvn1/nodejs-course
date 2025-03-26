@@ -1,0 +1,123 @@
+[2025-03-24T11:07:35.433+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-24T11:07:35.443+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-24T11:07:40.689+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:07:40.697+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:04.767+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:04.772+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:17.584+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:17.588+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:20.293+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:20.295+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:21.041+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:21.045+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:21.479+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:21.484+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:28.851+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:28.854+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:31.657+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:31.659+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:32.280+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:32.283+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:35.054+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:35.058+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:43.188+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:43.190+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:43.766+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:43.770+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:46.620+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - POST /create-folder - ::1"}
+[2025-03-24T11:08:58.981+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:08:58.984+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:09:44.341+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:09:44.344+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:09:53.910+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:09:53.913+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:10:08.094+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:10:08.097+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:10:13.574+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:10:13.577+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:10:18.115+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:10:18.118+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:10:29.069+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:10:29.071+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:10:34.989+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:10:34.992+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:10:50.560+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:10:50.563+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:11:23.718+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:11:23.722+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:11:53.435+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:11:53.438+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:12:05.056+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:12:05.059+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:12:06.969+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:12:06.971+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:12:11.737+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:12:11.741+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:13:08.310+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:13:08.312+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:13:13.273+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:13:13.275+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:13:27.233+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:13:27.236+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:13:44.306+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:13:44.308+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:14:02.216+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:14:02.218+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:14:10.262+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:14:10.265+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:14:43.239+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:14:43.242+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:14:58.296+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:14:58.298+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:15:05.269+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:15:05.271+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:15:10.234+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:15:10.236+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:15:17.324+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:15:17.327+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:15:24.309+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:15:24.311+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:15:42.239+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:15:42.241+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:16:00.271+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:16:00.273+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:16:04.268+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:16:04.270+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:16:07.273+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:16:07.275+07:00][error][[NodeJS Course Service]] {"message":"Không tìm thấy đường dẫn api này - GET /files - ::1"}
+[2025-03-24T11:21:57.237+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-24T11:21:57.250+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-24T11:24:29.906+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-24T11:24:29.918+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-24T11:24:50.640+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-24T11:24:50.654+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-24T11:47:07.537+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"Hello\" (type string) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%22Hello%22%7D - ::1"}
+[2025-03-24T11:47:26.224+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"Hello\" (type string) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%22Hello%22%7D - ::1"}
+[2025-03-24T11:47:39.160+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"Hello\" (type string) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%22Hello%22%7D - ::1"}
+[2025-03-24T11:48:29.904+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"Hello\" (type string) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%22Hello%22%7D - ::1"}
+[2025-03-24T13:58:29.752+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"Hello\" (type string) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%22Hello%22%7D - ::1"}
+[2025-03-24T13:59:13.902+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-24T13:59:13.914+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-24T14:08:04.783+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"Hello\" (type string) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%22Hello%22%7D - ::1"}
+[2025-03-24T14:08:06.901+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"Hello\" (type string) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%22Hello%22%7D - ::1"}
+[2025-03-24T14:08:26.213+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"Hello\" (type string) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%22Hello%22%7D - ::1"}
+[2025-03-24T14:08:30.070+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"Hello\" (type string) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%22Hello%22%7D - ::1"}
+[2025-03-24T14:09:58.566+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"{ id: '67e0dec48ca971d5a4a81ba8', name: 'Hello' }\" (type Object) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%7B%22id%22:%2267e0dec48ca971d5a4a81ba8%22,%22name%22:%22Hello%22%7D%7D - ::1"}
+[2025-03-24T14:10:00.597+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"{ id: '67e0dec48ca971d5a4a81ba8', name: 'Hello' }\" (type Object) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%7B%22id%22:%2267e0dec48ca971d5a4a81ba8%22,%22name%22:%22Hello%22%7D%7D - ::1"}
+[2025-03-24T14:10:26.318+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"{ id: '67e0dec48ca971d5a4a81ba8', name: 'Hello' }\" (type Object) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%7B%22id%22:%2267e0dec48ca971d5a4a81ba8%22,%22name%22:%22Hello%22%7D%7D - ::1"}
+[2025-03-24T14:10:28.772+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"{ id: '67e0dec48ca971d5a4a81ba8', name: 'Hello' }\" (type Object) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%7B%22id%22:%2267e0dec48ca971d5a4a81ba8%22,%22name%22:%22Hello%22%7D%7D - ::1"}
+[2025-03-24T14:10:37.594+07:00][error][[NodeJS Course Service]] {"message":"Cast to ObjectId failed for value \"{ id: '67e0dec48ca971d5a4a81ba8', name: 'Hello' }\" (type Object) at path \"folder\" for model \"File\" - GET /api/files?filters=%7B%22folder%22:%7B%22id%22:%2267e0dec48ca971d5a4a81ba8%22,%22name%22:%22Hello%22%7D%7D - ::1"}
+[2025-03-24T14:14:32.754+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-24T14:14:32.764+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-24T14:15:51.097+07:00][error][[NodeJS Course Service]] {"message":"Dữ liệu không hợp lệ - POST /api/files/folder - ::1"}
+[2025-03-24T14:25:17.899+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-24T14:25:17.912+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-24T14:25:32.237+07:00][error][[NodeJS Course Service]] {"message":"Dữ liệu không hợp lệ - POST /api/files/folder - ::1"}
+[2025-03-24T14:29:08.206+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-24T14:29:08.216+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-24T14:29:11.957+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-24T14:29:11.968+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-24T14:29:32.488+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-24T14:29:32.498+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-03-24T14:30:12.718+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-03-24T14:30:12.729+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
