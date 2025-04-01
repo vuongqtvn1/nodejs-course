@@ -1,0 +1,79 @@
+[2025-04-01T22:48:15.863+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:48:15.880+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:48:51.786+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:48:51.799+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:49:18.684+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:49:18.695+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:50:17.213+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:50:17.229+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:50:26.291+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:50:26.302+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:50:59.929+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:50:59.947+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:51:07.835+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:51:07.845+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:51:16.628+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:51:16.638+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:52:17.636+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:52:17.648+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:52:31.257+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:52:31.272+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:52:39.064+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:52:39.078+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:52:55.824+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:52:55.838+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:53:01.040+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:53:01.061+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:53:14.538+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:53:14.558+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:53:22.904+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:53:22.918+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:53:49.436+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:53:49.455+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:54:02.742+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:54:02.754+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:54:13.896+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:54:13.909+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T22:54:31.112+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T22:54:31.125+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:19:48.656+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:19:48.666+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:20:35.450+07:00][error][[NodeJS Course Service]] {"message":"API_NOTFOUND - GET /api/auth/register - ::1"}
+[2025-04-01T23:20:49.124+07:00][error][[NodeJS Course Service]] {"message":"Email đã tồn tại - POST /api/auth/register - ::1"}
+[2025-04-01T23:20:56.949+07:00][error][[NodeJS Course Service]] {"message":"API_NOTFOUND - GET /api/auth/register - ::1"}
+[2025-04-01T23:21:42.433+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:21:42.446+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:22:06.688+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:22:06.698+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:23:02.648+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:23:02.667+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:23:25.208+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:23:25.220+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:23:31.300+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:23:31.322+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:23:39.337+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:23:39.349+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:23:40.330+07:00][error][[NodeJS Course Service]] {"message":"API_NOTFOUND - GET /api/auth/register - ::1"}
+[2025-04-01T23:23:48.898+07:00][error][[NodeJS Course Service]] {"message":"API_NOTFOUND - GET /api/auth/register - ::1"}
+[2025-04-01T23:23:58.120+07:00][error][[NodeJS Course Service]] {"message":"Email đã tồn tại - POST /api/auth/register - ::1"}
+[2025-04-01T23:24:11.139+07:00][error][[NodeJS Course Service]] {"message":"INVALID_BODY - POST /api/auth/register - ::1"}
+[2025-04-01T23:24:49.585+07:00][error][[NodeJS Course Service]] {"message":"INVALID_BODY - POST /api/auth/register - ::1"}
+[2025-04-01T23:25:52.305+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:25:52.325+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:25:53.383+07:00][error][[NodeJS Course Service]] {"message":"INVALID_BODY - POST /api/auth/register - ::1"}
+[2025-04-01T23:26:16.418+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:26:16.431+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:26:26.442+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:26:26.465+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:26:26.852+07:00][error][[NodeJS Course Service]] {"message":"INVALID_BODY - POST /api/auth/register - ::1"}
+[2025-04-01T23:26:44.138+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:26:44.160+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:26:44.413+07:00][error][[NodeJS Course Service]] {"message":"INVALID_BODY - POST /api/auth/register - ::1"}
+[2025-04-01T23:27:04.911+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:27:04.922+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:27:05.599+07:00][error][[NodeJS Course Service]] {"message":"INVALID_BODY - POST /api/auth/register - ::1"}
+[2025-04-01T23:27:26.162+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:27:26.173+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:27:35.150+07:00][info][[NodeJS Course Service]] {"message":"🚀 Server is running on http://localhost:5000"}
+[2025-04-01T23:27:35.164+07:00][info][[NodeJS Course Service]] {"message":"✅ MongoDB Connected"}
+[2025-04-01T23:27:36.320+07:00][error][[NodeJS Course Service]] {"message":"INVALID_BODY - POST /api/auth/register - ::1"}

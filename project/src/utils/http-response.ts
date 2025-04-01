@@ -56,12 +56,4 @@ export class HttpResponse {
       errors,
     }
   }
-
-  static notFound(message = 'Không tìm thấy dữ liệu') {
-    return {
-      status: 'not-found',
-      code: StatusCodes.NOT_FOUND,
-      message,
-    }
-  }
 }
